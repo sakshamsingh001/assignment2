@@ -8,7 +8,7 @@
     /* background-color: black; */
 }
 body{
-    /* background-color: black; */
+    
 }
 #header-Main
 {
@@ -45,7 +45,7 @@ width: 100%;
 #sh1-content2
 {
 width: 75%;
-
+font-family: Public Sans;
     letter-spacing: 0%;
     text-transform: capitalize;   
    color: black;
@@ -53,17 +53,12 @@ width: 75%;
 }
 #sh1-content2 h2
 {
-    font-family: Public Sans;
-    /* color: ; */
-    font-size: clamp(0.4rem,2.5vw,6rem); 
     color: rgba(95, 225, 231, 1);
 }
 
 #sh1-content2 h4
 {
-      
-    font-size: clamp(0.4rem,1vw,6rem);  
-    color: rgba(26, 144, 107, 1);
+    color: rgba(26, 144, 107, 1);   
 }
 #sh1-content3
 {
@@ -77,8 +72,6 @@ width: 75%;
     text-align: center;
     align-content: center;
     border-radius: 10%;
-    font-size: clamp(0.4rem,0.5vw,6rem);  
-    height: 4vh;
 }
 #sub-header2
 {
@@ -92,13 +85,12 @@ width: 75%;
 #sh2-content1
 {
   position: absolute;
-    width: 30vw;
-    height: 10vh;
+    width: 40%;
+    height: 10%;
     z-index: 2;
     top: 10%;
    right: 5%;
-   /* place-items: space-between;   */
-   justify-content: space-between;
+   place-items: space-between;  
    gap: 2VW; 
 display: flex;
    align-items: center;
