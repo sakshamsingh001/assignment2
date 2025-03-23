@@ -17,7 +17,6 @@ header
     background-color: black;
 }
 
-  
 
 
 #header-Main
@@ -80,10 +79,19 @@ width: 75%;
     font-size: clamp(0.4rem,1vw,6rem);  
     color: rgba(26, 144, 107, 1);
 }
+
 #sh1-content3
 {
     width: 75%;
 
+}
+#sh1-content3 h3
+{
+    font-size: clamp(0.4rem,2vw,6rem); color: whitesmoke; font-weight: 800;
+}
+#sh1-content3 p
+{
+    font-size: clamp(0.4rem,1vw,6rem); 
 }
 #sub-header1 button 
 {
@@ -94,6 +102,7 @@ width: 75%;
     border-radius: 10%;
     font-size: clamp(0.4rem,0.5vw,6rem);  
     height: 4vh;
+    min-width: fit-content;
 }
 
 #sub-header2
@@ -808,3 +817,138 @@ button:hover {
     width: 100px;
     height: 100px;
   }
+  p {
+    font-size: clamp(0.875rem, 1vw, 1.125rem); /* 14px - 18px */
+  }
+  
+  h1 {
+    font-size: clamp(2rem, 5vw, 4rem); /* 32px - 64px */
+  }
+  
+  h2 {
+    font-size: clamp(1.75rem, 4vw, 3.5rem); /* 28px - 56px */
+  }
+  
+  h3 {
+    font-size: clamp(1.5rem, 3.5vw, 3rem); /* 24px - 48px */
+  }
+  
+  h4 {
+    font-size: clamp(1.25rem, 3vw, 2.5rem); /* 20px - 40px */
+  }
+  
+  h5 {
+    font-size: clamp(1.125rem, 2.5vw, 2rem); /* 18px - 32px */
+  }
+  
+  h6 {
+    font-size: clamp(1rem, 2vw, 1.5rem); /* 16px - 24px */
+  }
+  
+@media(max-width:400px)
+{
+   #sh2-content1
+   {
+    display: none;
+   }
+  #sh2-content2
+  {
+position: relative;
+bottom: 5vh;
+  }
+  #sh2-content3
+  {
+    position: relative;
+    bottom: 5vh;
+  }
+  #sh2-content3 img 
+  {
+    position: relative;
+    bottom:3vh;
+  }
+  .rect1
+  {
+    position: relative;
+  }
+  #rating   
+  {
+   min-width: fit-content;
+  }
+  #rating img 
+{
+        position: relative;
+        bottom: 0;
+}
+#logo
+{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#logo img 
+{
+    width: 15vw;
+    height: 15vh;
+}
+#sub-header1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#border-1 {
+    width: 50%;
+    height: 30vh;
+    position: relative;
+    border-width: 13px;
+    border-left: 7px solid rgba(26, 144, 107, 1);
+    border-top: 7px solid rgba(26, 144, 107, 1);
+    border-bottom: 0;
+    border-right: 0;
+    top: 35%;
+    left: -8%;
+    z-index: 1;
+}
+#border-2 {
+    width: 50%;
+    height: 20vh;
+    position: relative;
+    border-width: 13px;
+    border-right: 7px solid rgba(26, 144, 107, 1);
+    border-bottom: 7px solid rgba(26, 144, 107, 1);
+    border-top: 0;
+    border-left: 0;
+    left: 30%;
+    bottom: 20%;
+}
+#ca2-2 {
+    width: 80%;
+    display: flex
+;
+    align-items: center;
+}
+#ca2-5 {
+    width: 70%;
+    background-color: rgba(26, 144, 107, 1);
+    border-radius: 8%;
+    text-align: center;
+}
+.outer-box h2 
+{
+    font-size: clamp(1rem, 2vw, 1.5rem);
+}
+.outer-box p
+{
+    font-size: clamp(0.25rem, 2vw, 1.5rem);
+}
+.contact-info p 
+{
+    font-size: clamp(0.25rem, 1.5vw, 1.5rem);
+}
+.last p 
+{
+    font-size: clamp(0.45rem, 1.5vw, 1.5rem);
+}
+}
