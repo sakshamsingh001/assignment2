@@ -1,4 +1,4 @@
-    *
+*
 {
     border: 0px;
     margin: 0px;
@@ -8,8 +8,18 @@
     /* background-color: black; */
 }
 body{
-    /* background-color: black; */
+   
+    background-color: black;
 }
+header
+{
+    width: 100%;
+    background-color: black;
+}
+
+  
+
+
 #header-Main
 {
  
@@ -17,16 +27,21 @@ display: flex;
 background-color: black;
 width: 100%;
 
+height: 500px;
+width: 100%;
+background-color: black;
+display: flex;
+justify-content: space-between; /* Distribute space between sub-headers */
+padding: 0; /* Remove default padding */
+
+
 }
 #sub-header1
 {
-   
-    width: 50%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    position: relative;
-  left: 3%;
+    width: calc(50% - 3%);
+    /* width: 50%;   */
+  
+  padding-left: 3%;
 }
 #logo
 {
@@ -72,17 +87,18 @@ width: 75%;
 }
 #sub-header1 button 
 {
-    width: 25%;
-    background-color:rgba(26, 144, 107, 1)  ;
+    max-width: 15%; /* Set a maximum width */
+    background-color:rgba(26, 144, 107, 1);
     text-align: center;
     align-content: center;
     border-radius: 10%;
     font-size: clamp(0.4rem,0.5vw,6rem);  
     height: 4vh;
 }
+
 #sub-header2
 {
-    position: relative;
+    /* position: relative; */
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -91,17 +107,11 @@ width: 75%;
 
 #sh2-content1
 {
-  position: absolute;
-    width: 30vw;
-    height: 10vh;
-    z-index: 2;
-    top: 10%;
-   right: 5%;
-   /* place-items: space-between;   */
-   justify-content: space-between;
-   gap: 2VW; 
-display: flex;
-   align-items: center;
+    width: 100%; /* Take full width of parent */
+    display: flex;
+    justify-content: flex-end; /* Align links to the right */
+    gap: 2vw;
+    padding-right: 5%;
 }
 #sh2-content2
 {
@@ -153,7 +163,8 @@ position: relative;
 {
     width: 30%;
 display: flex;
-position:absolute;
+
+/* position:absolute; */
 height: fit-content;
 z-index: 1;
 align-items: center;
@@ -204,18 +215,7 @@ width: 30%;
 
     z-index: 1;
 }
-/* #sh2-content3
-{
-display: flex;
-width: 70%;
-flex-direction: column;
-position: relative;
-}
-#sh2-content3 img
-{
-    
-    
-} */
+
 #image
 {
     display: flex;
@@ -392,6 +392,7 @@ height: 5vh;
 height: 32vw;
 background-image: url(images/image\ 632.png);
 background-size: cover;
+
     }
 
      #texts
@@ -429,16 +430,17 @@ background-size: cover;
 #content-area4
 {
     display: flex;
-    height: 30vw;
+    height: auto; /* Fixed */
     flex-direction: row;
     background-color: black;
     gap: 3%;
-   justify-content: space-around;
+    justify-content: space-around;
+    padding: 2rem 0; /* Add breathing room */
 }
 .ca4
 {
     width: 30%;
-    height: 100%;
+    /* height: 100%; */
 }
 .card {
     position: relative;
@@ -446,7 +448,8 @@ background-size: cover;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 100%;
+    min-height: 100%;
+    /* height: auto; */
     border : .2 vw solid aqua;
     box-shadow: 0px 0px 30.863px 7.407px rgba(95, 225, 231, 0.26) inset;
     transition: .2s ease-in-out;
@@ -454,10 +457,18 @@ background-size: cover;
     background-color: black;
     top: 8%;
     z-index: 1;
+    border: 0.2vw solid aqua; /* Syntax fixed */
+    top: 0; /* Positioning removed */
+   
 }
+
 
 .card:hover {
     box-shadow: 0vw 0vw 2vw aqua, 0 0 2vw aqua, 0 0 2vw aqua;
+}
+.card h2
+{
+    font-size: clamp(0.4rem, 2.5vw, 6rem);
 }
 
 #img-a
@@ -506,11 +517,20 @@ background-size: cover;
 .card p {
     text-align: center;  /* Centers the text */
     line-height: 1.2;    /* Adds spacing between lines */
+    font-size: clamp(0.4rem, 1vw, 6rem);
+    
 }
-
+.card-image
+{
+    width: 70%;
+    margin: 0 auto;
+}
+/* CONTENT AREA 5 */
 .content-area5 {
-    padding: 0.5rem;
-    height: 26vw;
+    /* padding: 0.5rem; */
+    /* height: fit-content; */
+   height: auto;
+   min-height: 30vw;
     width: 100%;
     display: flex;
     position: relative;
@@ -520,7 +540,8 @@ background-size: cover;
 }
 .extra {
     height: 90%;
-    width: 50%;
+    padding: 2%;
+    width: 49%;
 }
 .ca5-left{
     padding: 2%;
@@ -539,6 +560,10 @@ background-size: cover;
 
 .reg {
     color: aqua;
+}
+.reg h2
+{
+    font-size: clamp(0.4rem, 2.5vw, 6rem);
 }
 
 .form-outer{
@@ -613,7 +638,7 @@ input:valid ~ .inputtext {
     font-size: clamp(.2rem,1.2vw,3rem);
     font-weight: 700;
     cursor: pointer;
-    transition: background 0.3s ease, color 0.3s ease;
+    transition:  0.3s ease, color 0.3s ease;
 }
 
 button:hover {
@@ -676,7 +701,8 @@ button:hover {
     color: aqua;
 }
 
-.contact-info {
+.contact-info p {
+    font-size: clamp(0.4rem, 1.5vw, 6rem);
 }
 
 .social-icons {
@@ -749,7 +775,7 @@ button:hover {
     --r: 1.2em; /* the radius */
     --b: 5px; /* border width  */
     --c1: #0D6759;
-    --c2: #cf9d38;
+    --c2:  #5FE2E1;;
   
     padding: 1em;
     border-radius: var(--r)/var(--r) min(var(--r),var(--p) - var(--h)*tan(var(--a)/2)) min(var(--r),100% - var(--p) - var(--h)*tan(var(--a)/2)) var(--r);
