@@ -724,7 +724,13 @@ button:hover {
     left: 4%;
     position: relative;
 }
-
+.social-icons a 
+{
+    max-width: fit-content;
+    max-height: fit-content;
+    border: 0px;
+    margin: 0;
+}
 .social-icons img {
     border: 1vw solid black;
     border-radius: 35% 35% 35% 35%;
@@ -889,7 +895,7 @@ bottom: 5vh;
 }
 #logo img 
 {
-    width: 15vw;
+    width: 25vw;
     height: 15vh;
 }
 #sub-header1
@@ -900,20 +906,20 @@ bottom: 5vh;
 }
 #border-1 {
     width: 50%;
-    height: 30vh;
+    height: 10vh;
     position: relative;
     border-width: 13px;
     border-left: 7px solid rgba(26, 144, 107, 1);
     border-top: 7px solid rgba(26, 144, 107, 1);
     border-bottom: 0;
     border-right: 0;
-    top: 35%;
+    top: 25%;
     left: -8%;
     z-index: 1;
 }
 #border-2 {
     width: 50%;
-    height: 20vh;
+    height: 10vh;
     position: relative;
     border-width: 13px;
     border-right: 7px solid rgba(26, 144, 107, 1);
@@ -921,7 +927,7 @@ bottom: 5vh;
     border-top: 0;
     border-left: 0;
     left: 30%;
-    bottom: 20%;
+    bottom: 25%;
 }
 #ca2-2 {
     width: 80%;
@@ -935,13 +941,17 @@ bottom: 5vh;
     border-radius: 8%;
     text-align: center;
 }
-.outer-box h2 
+
+.headline h2 
 {
-    font-size: clamp(1rem, 2vw, 1.5rem);
+    
+    font-size: clamp(0.5rem, 2vw, 1.5rem);
+    color: blue;
 }
-.outer-box p
+.headline p
 {
-    font-size: clamp(0.25rem, 2vw, 1.5rem);
+    
+    font-size: clamp(0.1rem, 1.5vw, 1.5rem);
 }
 .contact-info p 
 {
@@ -950,5 +960,21 @@ bottom: 5vh;
 .last p 
 {
     font-size: clamp(0.45rem, 1.5vw, 1.5rem);
+}
+.social-icons
+{
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 4vw;
+    width: 25vw;
+    left: 4%;
+    bottom: 2vh;
+    position: relative;
+
+}
+#ca2-5 p 
+{
+        font-size: clamp(0.55rem, 1vw, 1.125rem); /* 14px - 18px */  
 }
 }
