@@ -1053,6 +1053,7 @@ display: none;
     height: auto;
     max-height: 22vh;
     display: block;
+    top: -3vh;
    }
    #ca1-right
    {
