@@ -217,6 +217,7 @@ width: 30%;
     width: 35%;
     position: relative;
     left:3%;
+   
 }
 #border-1
 {
@@ -1049,6 +1050,8 @@ display: none;
   
    #ca1-left
    {
+    height: auto;
+    max-height: 22vh;
     display: block;
    }
    #ca1-right
@@ -1167,11 +1170,32 @@ hr
 }
 #border-1
 {
-    display: none;
+    position: relative;
+top: 8vh;
+left: -2vh;
 }
 #border-2
 {
+    position: relative;
+    bottom: 8vh;
+    righ: -2vh;
+}
+#sh1-content1
+{
     display: none;
+}
+#sh1-content3 h3
+{
+font-size: 0.3rem;
+color: #5DE1E7;
+}
+#sh1-content3 span 
+{
+    color: #5DE1E7;
+}
+#sub-header1 button
+{
+    max-height: 2vh;
 }
 
 }
