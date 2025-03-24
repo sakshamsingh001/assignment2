@@ -54,6 +54,20 @@ display: none;
     position: relative;
     right: 20vw;
    }
+   #sh2-content2
+   {
+    display: flex;
+    flex-direction: column;
+   align-items:center  ;
+
+   }
+   .rect1
+   {
+    position: relative;
+    
+    right: 4vw;
+   }
+  
    #ca1-left
    {
     display: none;
@@ -105,30 +119,58 @@ display: none;
    {
     width: 70%;
    }
+  
    #content-area4
-   {
-flex-direction: column;
-gap: 5vh;
-align-items: center;
-   }
-   .ca4
-   {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-   }
-   .card
-   {
-    width: 60%;
-    justify-content: space-between;
-   }    
-   .content-area5
    {
     display: flex;
     flex-direction: column;
+    gap: 5vw;
+    justify-content: space-between;
+    align-items: center;
    }
-
-
-
+.ca4
+{
+    width: 80%;
+    height: fit-content;
     
+}
+.card
+{
+    padding: 2vh;
+}
+.content-area5
+{
+    display: flex;
+    flex-direction: column;
+}
+.form-outer
+{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: fit-content;
+    justify-content: center;
+align-items: center;
+}
+.register
+{
+    align-items: center;
+    justify-content: center;
+}
+.ca5-right
+{
+    height: max-content;
+}
+.ca5-left
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.reg
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 }

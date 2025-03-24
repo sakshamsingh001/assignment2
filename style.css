@@ -452,7 +452,7 @@ background-size: cover;
     height: fit-content; /* Fixed */
     flex-direction: row;
     background-color: black;
-    gap: 3%;
+    gap: 3%;    
     justify-content: space-around;
     padding: 2rem 0; /* Add breathing room */
    
@@ -461,6 +461,7 @@ background-size: cover;
 {
     width: 30%;
     height: 100vh;
+    
 }
 .card {
     position: relative;
@@ -854,7 +855,7 @@ justify-content: space-around;
   #sh2-content2
   {
 position: relative;
-bottom: 5vh;
+
   }
   #sh2-content3
   {
