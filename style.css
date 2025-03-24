@@ -36,7 +36,7 @@ padding: 0; /* Remove default padding */
 }
 #sub-header1
 {
-    width: calc(50% - 3%);
+    width: 47%;
     /* width: 50%;   */
   
   padding-left: 3%;
@@ -111,6 +111,7 @@ width: 75%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items:flex-end;
 } 
 
 #sh2-content1
@@ -126,8 +127,10 @@ width: 75%;
  position: relative; 
 width: 75%;
 height: auto; 
-top: 25%;
-left: 20%;
+padding-top: 6%;
+/* top: 25%; */
+/* left: 20%; */
+padding-left: 10%;
 }
 #sh2-content1 a{
     text-decoration: none;
@@ -159,27 +162,33 @@ display: flex;
 width: 70%;
 flex-direction: column;
 position: relative;
+
+
 }
 #sh2-content3 img
 {
     position: relative;
     width: 100%;
-    right: 10%;
+    height: 100%;
+    /* right: 10%; */
+    /* background-color: black; */
     
 }
 #rating
 {
+   
     width: 30%;
 display: flex;
 
 /* position:absolute; */
 height: fit-content;
-z-index: 1;
+/* z-index: 1; */
 align-items: center;
 background-color: white;
 justify-content: space-around;
-right: 10%;
+/* right: 10%; */
 bottom: 0;
+display: none;
 
 }
 #rating p{
@@ -342,6 +351,8 @@ height: 5vh;
 #ca2-4
 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -438,17 +449,18 @@ background-size: cover;
 #content-area4
 {
     display: flex;
-    height: auto; /* Fixed */
+    height: fit-content; /* Fixed */
     flex-direction: row;
     background-color: black;
     gap: 3%;
     justify-content: space-around;
     padding: 2rem 0; /* Add breathing room */
+   
 }
 .ca4
 {
     width: 30%;
-    /* height: 100%; */
+    height: 100vh;
 }
 .card {
     position: relative;
@@ -456,7 +468,8 @@ background-size: cover;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    min-height: 100%;
+    height: 100%;
+   
     /* height: auto; */
     border : .2 vw solid aqua;
     box-shadow: 0px 0px 30.863px 7.407px rgba(95, 225, 231, 0.26) inset;
@@ -469,14 +482,19 @@ background-size: cover;
     top: 0; /* Positioning removed */
    
 }
-
+.card p 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 .card:hover {
     box-shadow: 0vw 0vw 2vw aqua, 0 0 2vw aqua, 0 0 2vw aqua;
 }
 .card h2
 {
-    font-size: clamp(0.4rem, 2.5vw, 6rem);
+    font-size: clamp(0.4rem, 1.5vw, 6rem);
 }
 
 #img-a
@@ -485,42 +503,16 @@ background-size: cover;
     width: 70%;
     flex-direction: column;
     position: relative;
-        width: 70%;
+    
         
 }
 #img-a img{
     position: relative;
     width: 100%;
-   z-index: 1;
+   /* z-index: 1; */
 }
 
 
-#img-b{
-    display: flex;
-    width: 70%;
-    flex-direction: column;
-    position: relative;
-        width: 70%;
-}
-#img-b img
-{
-    position: relative;
-    width: 100%;
-   z-index: 1;
-}
-#img-c{
-    display: flex;
-    width: 70%;
-    flex-direction: column;
-    position: relative;
-        width: 70%;
-}
-#img-c img
-{
-    position: relative;
-    width: 100%;
-   z-index: 1;
-}
 
 .card p {
     text-align: center;  /* Centers the text */
@@ -537,7 +529,7 @@ background-size: cover;
 .content-area5 {
     /* padding: 0.5rem; */
     /* height: fit-content; */
-   height: auto;
+   height: 30vh;
    min-height: 30vw;
     width: 100%;
     display: flex;
@@ -546,11 +538,11 @@ background-size: cover;
     align-items: center;
     background-color: black;
 }
-.extra {
+/* .extra {
     height: 90%;
     padding: 2%;
     width: 49%;
-}
+} */
 .ca5-left{
     padding: 2%;
     display: flex;
@@ -659,19 +651,22 @@ button:hover {
     display: flex;
     position: relative;
     align-items: center;
-    justify-content: center;
+justify-content: space-around; 
+    width: 80%;
+    height: 100%;
+    text-align: center;
 }
 
 .outer-box {
     border: 0.2vw solid #14A76C;
     text-align: center;
     border-radius: 10px;
-    width: 80%;
+    width: 100%;
     height: 80%;
     display: flex;
     flex-direction: column;
     gap: 5%;
-    justify-content: space-around;
+    
 }
 
 .headline {
@@ -719,8 +714,8 @@ button:hover {
     background-size: contain;
 
     height: 4vw;
-    width: 25vw;
-    left: 4%;
+    width: 100%;
+    /* left: 4%; */
     position: relative;
 }
 .social-icons a 
@@ -831,7 +826,7 @@ button:hover {
   }
   
   h2 {
-    font-size: clamp(1.75rem, 4vw, 3.5rem); /* 28px - 56px */
+    font-size: clamp(1.75rem, 1.5vw, 3.5rem); /* 28px - 56px */
   }
   
   h3 {
@@ -986,138 +981,3 @@ bottom: 5vh;
 
 
 
-/* This file is created for mobile */
-@media(max-width:400px)
-{
-  
-  
-   #logo img
-   {
-    width: 25%;
-    height: 100%;
-   }
-
-#header-Main
-{
-    display: flex;
-        flex-direction: column;
-}
-    #sub-header1
-    {
-        position: relative;
-    width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content:space-between;
-        position: relative;
-      text-align: center;
-      align-items: center;
-        height: 50%;
-        padding: 0px;
-    }
-    #sub-header2
-    {
-        /* display: none; */
-        /* position: absolute; */
-        width: 100%;
-        height: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #sh2-content1
-   {
-    display: none;
-   }
-   .rect1
-   {
-    position: relative;
-   }
-   #rating
-   {
-display: none;
-   }
-   #sh2-content3 img 
-   {
-    position: relative;
-    right: 20vw;
-   }
-   #ca1-left
-   {
-    display: none;
-   }
-   #ca1-right
-   {
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-   }
-   #ca1-right2
-   {
-    width: 70%;
-    display: flex;
-    position: relative;
-    left: 15%;
-   }
-   #ca1-right3 button
-   {
-    height:fit-content;
-   }
-   .tooltip
-   {
-    width: fit-content;
-    height: fit-content;
-   }
-   .tooltip p 
-   {
-    font-size: clamp(0.5rem, 1vw, 1.125rem);
-   }
-   #ca2-1 h3 
-   {
-    font-size: clamp(1rem, 2.5vw, 1.125rem);
-   }
-   #ca2-2 p 
-   {
-    font-size: clamp(0.5rem, 1vw, 1.125rem);
-   }
-   #content-area3
-   {
-    background-image: none;
-   }
-   #texts
-   {
-    width: 100%;
-    opacity: 1;
-   }
-   #texts p 
-   {
-    width: 70%;
-   }
-   #content-area4
-   {
-flex-direction: column;
-gap: 5vh;
-align-items: center;
-   }
-   .ca4
-   {
-    display: flex;
-
-    justify-content: center;
-    width: 100%;
-   }
-   .card
-   {
-    width: 60%;
-    justify-content: space-between;
-   }    
-   .content-area5
-   {
-    display: flex;
-    flex-direction: column;
-   }
-
-
-
-    
-}
