@@ -26,7 +26,7 @@ display: flex;
 background-color: black;
 width: 100%;
 flex-direction: row;
-height: 500px;
+height: auto;
 width: 100%;
 background-color: black;
 justify-content: space-between; /* Distribute space between sub-headers */
@@ -43,8 +43,9 @@ padding: 0; /* Remove default padding */
 }
 #logo
 {
-    width: 20%;  
-    
+    display: flex;
+    width: 10%;  
+    justify-content: center;
 }
 #sh1-content1
 {
@@ -896,7 +897,7 @@ position: relative;
 }
 #sub-header1
 {
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: space-around;
 }
@@ -990,7 +991,7 @@ position: relative;
 #header-Main
 {
     display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
 }
     #sub-header1
     {
@@ -998,7 +999,7 @@ position: relative;
     width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content:space-between;
+        justify-content:normal;
         position: relative;
       text-align: center;
       align-items: center;
@@ -1048,7 +1049,7 @@ display: none;
   
    #ca1-left
    {
-    display: none;
+    display: block;
    }
    #ca1-right
    {
@@ -1150,6 +1151,27 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+hr 
+{
+    width: 80%;
+}
+#content-area1
+{ 
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center ;
+}
+#border-1
+{
+    display: none;
+}
+#border-2
+{
+    display: none;
 }
 
 }
