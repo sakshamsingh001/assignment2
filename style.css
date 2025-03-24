@@ -529,9 +529,9 @@ background-size: cover;
 /* CONTENT AREA 5 */
 .content-area5 {
     /* padding: 0.5rem; */
-    /* height: fit-content; */
-   height: 30vh;
-   min-height: 30vw;
+    height: fit-content;
+   /* height: 30vh; */
+   min-height: 40vh;
     width: 100%;
     display: flex;
     position: relative;
@@ -667,7 +667,8 @@ justify-content: space-around;
     display: flex;
     flex-direction: column;
     gap: 5%;
-    
+    min-height: 10vh;
+    justify-content: space-around;    
 }
 
 .headline {
@@ -958,13 +959,13 @@ position: relative;
 }
 .social-icons
 {
-    background-position: top;
+ 
     background-repeat: no-repeat;
     background-size: cover;
-    height: 4vw;
-    width: 25vw;
-    left: 4%;
-    bottom: 2vh;
+    min-height: 4vw;
+    min-width: 25vw;
+  
+    
     position: relative;
 
 }
@@ -1150,6 +1151,7 @@ align-items: center;
     align-items: center;
     justify-content: center;
 }
+
 }
 
 
