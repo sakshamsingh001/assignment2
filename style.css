@@ -848,7 +848,7 @@ justify-content: space-around;
   h6 {
     font-size: clamp(1rem, 2vw, 1.5rem); /* 16px - 24px */
   }
-  .cir{
+  .mark{
     position: absolute;
     height:4vw;
     width:8vw;
@@ -863,7 +863,7 @@ justify-content: space-around;
   
 @media(max-width:400px)
 {
-.cir
+.mark
 {
     display: none;
 }
