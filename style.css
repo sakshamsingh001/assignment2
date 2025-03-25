@@ -848,9 +848,26 @@ justify-content: space-around;
   h6 {
     font-size: clamp(1rem, 2vw, 1.5rem); /* 16px - 24px */
   }
+  .cir{
+    position: absolute;
+    height:4vw;
+    width:8vw;
+    margin-bottom: 50%;
+    margin-left: 25%;
+    background-color: aqua;
+    z-index: 0;
+    filter: blur(60px);
+    overflow: hidden;
+    opacity:0.5;
+}
   
 @media(max-width:400px)
 {
+.cir
+{
+    display: none;
+}
+
    #sh2-content1
    {
     display: none;
