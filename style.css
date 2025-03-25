@@ -899,8 +899,8 @@ position: relative;
   #sh2-content3
   {
     position: relative;
-    bottom: 5vh;
-    top: -15vh;
+    /* bottom: 5vh; */
+    /* top: -10vh; */
     left: 6vw;
     height: 100%;
     width: 80%;
@@ -915,6 +915,7 @@ position: relative;
   }
   .rect1
   {
+
     position: relative;
   }
   #rating   
@@ -941,6 +942,7 @@ position: relative;
 }
 #sub-header1
 {
+    
     display: block;
     flex-direction: column;
     justify-content: space-around;
@@ -1092,7 +1094,8 @@ left: 5%;
     height: 35vw;
     width: 35vw;
     right: 4vw;
-    top: 4vh;
+    top: 8vh;
+    display: none;
    }
   
    #ca1-left
