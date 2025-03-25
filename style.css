@@ -222,6 +222,7 @@ width: 30%;
     display: flex;
     background-color: black;
     width: 100%;
+    /* height: fit-content; */
 
 }
 #ca1-left
@@ -1218,6 +1219,7 @@ hr
     width: 100%;
     justify-content: center;
     align-items: center ;
+    
 }
 #border-1
 {
@@ -1251,7 +1253,8 @@ color: #5DE1E7;
 }
 .outer-box
 {
-    height: 10vh;
+    justify-content: space-evenly;
+    height: 15vh;
 }
 
 }
