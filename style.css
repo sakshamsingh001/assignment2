@@ -147,20 +147,24 @@ padding-left: 10%;
     color: white; 
 }
 .rect1{
-    height: 14vw;
-    width: 14vw;
+    height: 35vw;
+    width: 35vw;
     border: .8VW solid rgb(184, 246, 250);
     border-radius: 1rem;
     transform: rotate(45deg);
-    position: absolute;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    left: -10vw;
+   
 }
 
 .rect2{
-    height: 10vw;
-    width: 10vw;
+    /* height: 10vw;
+    width: 10vw; */
+    width: 70%;
+    height: 70%;
     border: .8vw solid rgb(184, 246, 250);
     border-radius:1rem;
 }
@@ -172,7 +176,7 @@ display: flex;
 width: 70%;
 flex-direction: column;
 position: relative;
-
+top: -15vh;
 
 }
 #sh2-content3 img
@@ -181,8 +185,8 @@ position: relative;
     width: 100%;
     height: 100%;
     right: 10%;
-    /* background-color: black; */
-    
+  
+    /* background-color: black; */   
 }
 #rating
 {
@@ -607,7 +611,14 @@ background-size: cover;
     font-size: clamp(0.2rem,1.2vw,1.5rem);
     color: white;
     transition: all 0.3s ease-in-out;
-    pointer-events: none;
+    
+}
+a
+{
+    font-size: clamp(0.5rem,2vw,1.8rem);
+    transition-duration: 4ms;
+    text-decoration: none;
+    
 }
 
 .inputtext:hover{
@@ -951,7 +962,7 @@ position: relative;
     border-bottom: 7px solid rgba(26, 144, 107, 1);
     border-top: 0;
     border-left: 0;
-    left: 30%;
+    left: 20%;
     bottom: 25%;
 }
 #ca2-2 {
