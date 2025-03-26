@@ -956,7 +956,7 @@ position: relative;
   {
     position: relative;
     /* bottom:3vh; */
-   
+   top: -3vh;
   
 
   }
@@ -974,7 +974,6 @@ position: relative;
         position: relative;
         bottom: 0;
 }
-/* to commit */
 #logo
 {
     width: 100vw;
@@ -989,8 +988,8 @@ position: relative;
 }
 #logo img 
 {
-    width: 15vw;
-    height: 5vh;
+    width: 25vw;
+    height: 10vh;
 }
 #sub-header1
 {
@@ -1087,11 +1086,11 @@ position: relative;
 {
   
   
-   #logo img
+   /* #logo img
    {
     width: 10%;
     height: 100%;
-   }
+   } */
 
 #header-Main
 {
