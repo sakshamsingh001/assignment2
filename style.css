@@ -761,13 +761,21 @@ justify-content: space-around;
     font-weight: 700;
     color: rgba(95, 225, 231, 1);
 }
+.headline h2
+{
+    font-size: 1.5rem;
+}
+.headline h3
+{
+    font-size: 1rem;
+}
 .headline h4
 {
     color: rgba(95, 225, 231, 1);
 }
 
 .register-btn {
-    height: 20%;
+    height: 10%;
     background-color: #14A76C;
     color: white;
     border: none;
@@ -778,6 +786,7 @@ justify-content: space-around;
     width: 80%;
     position: relative;
     left: 10%;
+    font-size: 0.9rem;
 }
 
 .register-btn:hover {
@@ -786,12 +795,12 @@ justify-content: space-around;
 
 .time {
     margin-top: 1vw;
-    font-size: 1vw;
+    font-size: clamp(0.5rem,1vw,1.5rem);
     color: aqua;
 }
 
 .contact-info p {
-    font-size: clamp(0.4rem, 1.5vw, 6rem);
+    font-size: clamp(0.4rem, 1vw, 6rem);
 }
 
 .social-icons {
@@ -973,6 +982,10 @@ position: relative;
     justify-content: center;
 
 }
+.button1
+{
+    font-size: 0.6rem;
+}
 #logo img 
 {
     width: 15vw;
@@ -1027,6 +1040,12 @@ position: relative;
 .headline h2 
 {
     
+    font-size: clamp(0.7rem, 2vw, 1.5rem);
+    color: blue;
+}
+.headline h3
+{
+    
     font-size: clamp(0.5rem, 2vw, 1.5rem);
     color: blue;
 }
@@ -1037,7 +1056,7 @@ position: relative;
 }
 .contact-info p 
 {
-    font-size: clamp(0.25rem, 1.5vw, 1.5rem);
+    font-size: 0.5rem;
 }
 .last p 
 {
@@ -1211,6 +1230,9 @@ left: 5%;
    {
     width: 70%;
    }
+   .register-btn{
+    font-size: 0.5rem;
+   }
   
    #content-area4
    {
@@ -1245,11 +1267,16 @@ left: 5%;
 }
 .form-outer
 {
+    width: 100%;
     flex-wrap: nowrap;
     flex-direction: column;
     height: fit-content;
     justify-content: center;
 align-items: center;
+}
+.form-group
+{
+    width: 80%;
 }
 .register
 {
@@ -1272,6 +1299,11 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.reg h2
+{
+    color: cyan;
+    font-size: 1rem;
 }
 hr 
 {
@@ -1327,7 +1359,7 @@ color: #5DE1E7;
 .outer-box
 {
     justify-content: space-evenly;
-    height: 23vh;
+    height: 27vh;
 }
 #content-area2
 {
