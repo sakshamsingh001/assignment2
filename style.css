@@ -105,6 +105,8 @@ padding-top: 4vh;
 #sh1-content2
 {
 width: 75%;
+display: flex;
+flex-direction: column;
 
     letter-spacing: 0%;
     text-transform: capitalize;   
@@ -1011,6 +1013,12 @@ position: relative;
     left: -8%;
     z-index: 1;
 }
+
+#sh1-content2
+{
+    justify-content: space-between;
+gap: 1vh;
+}
 #border-2 {
     width: 50%;
     height: 10vh;
@@ -1110,6 +1118,17 @@ position: relative;
         height: 50%;
         padding: 0px;
     }
+    .card p 
+    {
+        position: relative;
+        top :2vh;
+    }
+    #ca1-right1 h2
+    {
+font-size: 1rem;
+position: relative;
+bottom: 1.5vh;
+    }
     #sub-header2
     {
         /* display: none; */
@@ -1158,10 +1177,20 @@ left: 5%;
   
    #ca1-left
    {
-    height: auto;
-    max-height: 22vh;
+    height: fit-content;
+    max-height: 25vh;
     display: block;
     top: -3vh;
+   }
+   #image
+   {
+    width: 100%;
+    height: 15vh;
+   }
+   #image img 
+   {
+    width: 100%;
+    height: 100%;
    }
    #ca1-right
    {
@@ -1307,6 +1336,9 @@ align-items: center;
 }
 hr 
 {
+    position: 
+    relative;
+    top: 1vh;
     width: 80%;
 }
 #content-area1
@@ -1330,14 +1362,17 @@ left: -2vh;
     position: relative;
     bottom: 8vh;
     right: -2vh;
-    left:7vw;
+    left:22vw;
 }
 #sh1-content1
 {
     display: block;
+    margin-bottom: 1vh;
 }
 #sh1-content3
 {
+    position: relative;
+    top: 3vh;
     display: flex;
     flex-direction: column;
     align-items: center;
